@@ -11,6 +11,10 @@ dreamhouse-sfdx/
 └── src/perms
 ```
 
+## Dependencies
+
+Install my handy plugin: `sfdx plugins:install sfdx-waw-plugin`
+
 ## Try it
 
 ```
