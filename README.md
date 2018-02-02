@@ -5,10 +5,10 @@ A script that shows you how to decompose the famous dreamhouseapp/dreamhouse-sfd
 Here's what the final package directory structure will look like:
 ```
 dreamhouse-sfdx/
-├── src/schema
-├── src/bl
-├── src/ui
-└── src/perms
+├── force-app/schema
+├── force-app/bl
+├── force-app/ui
+└── force-app/perms
 ```
 
 ## What is this showing?
@@ -33,3 +33,12 @@ Install my handy plugin: `sfdx plugins:install sfdx-waw-plugin`
 chmod +x decomp.sh
 ./decomp.sh
 ```
+
+When complete, you'll have two new scratch orgs:
+
+1. `decomporg1` which had source pushed one package directory at a time
+2. `decomporg2` which had all the source pushed at once
+
+## Future
+
+Soon we'll wire up each package directory with a Developer Controlled Package (DCP).
