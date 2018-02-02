@@ -1,6 +1,6 @@
 # sfdx-dh-decompose
 
-A script that shows you how to decompose the famous dreamhouseapp/dreamhouse-sfdx into multiple package directories.
+A script that shows you how to decompose the famous [dreamhouseapp/dreamhouse-sfdx](https://github.com/dreamhouseapp/dreamhouse-sfdx) into multiple package directories.
 
 Here's what the final package directory structure will look like:
 ```
